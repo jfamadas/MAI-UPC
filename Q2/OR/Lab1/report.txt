@@ -1,0 +1,9 @@
+1- Introduccio del tema
+2- Descripció dels metodes
+    - SURF: Blob, Lo dels pi/2 i el pi/4
+    - BRISK: Corner
+3- Imatges:
+    - Skyline: Corners
+    - Girasols: Blobs
+4- RANSAC:
+5- Posem a prova:
