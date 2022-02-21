@@ -1,0 +1,3 @@
+usr: nct01009
+
+psw: (la de sempre)
