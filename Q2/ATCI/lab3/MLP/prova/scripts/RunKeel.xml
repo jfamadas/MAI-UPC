@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<execution>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config0s1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config0s2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config0s3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config0s4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config0s5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config0s6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config0s7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config0s8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config0s9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config1s1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config1s2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config1s3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config1s4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config1s5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config1s6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config1s7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config1s8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config1s9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config2s1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config2s2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config2s3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config2s4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config2s5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config2s6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config2s7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config2s8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config2s9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config3s1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config3s2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config3s3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config3s4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config3s5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config3s6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config3s7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config3s8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config3s9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config4s1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config4s2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config4s3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config4s4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config4s5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config4s6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config4s7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config4s8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config4s9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ModelTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Regr-Check/TSTMLP-BP-R/config0s0.txt</scriptFile>
+  </sentence>
+</execution>
+

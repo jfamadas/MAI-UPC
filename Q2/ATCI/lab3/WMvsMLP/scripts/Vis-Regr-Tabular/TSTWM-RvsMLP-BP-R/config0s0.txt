@@ -1,0 +1,14 @@
+algorithm = Table with summary of the algorithm, Regression probs.
+inputData = "../results/WM-R.winewhite/result0.tst" "../results/WM-R.winewhite/result1.tst" "../results/WM-R.winewhite/result2.tst" "../results/WM-R.winewhite/result3.tst" "../results/WM-R.winewhite/result4.tst" "../results/WM-R.winewhite/result0.tra" "../results/WM-R.winewhite/result1.tra" "../results/WM-R.winewhite/result2.tra" "../results/WM-R.winewhite/result3.tra" "../results/WM-R.winewhite/result4.tra" "../results/MLP-BP-R.winewhite/result0s0.tst" "../results/MLP-BP-R.winewhite/result1s0.tst" "../results/MLP-BP-R.winewhite/result2s0.tst" "../results/MLP-BP-R.winewhite/result3s0.tst" "../results/MLP-BP-R.winewhite/result4s0.tst" "../results/MLP-BP-R.winewhite/result0s0.tra" "../results/MLP-BP-R.winewhite/result1s0.tra" "../results/MLP-BP-R.winewhite/result2s0.tra" "../results/MLP-BP-R.winewhite/result3s0.tra" "../results/MLP-BP-R.winewhite/result4s0.tra" 
+outputDataTabular = "../results/Vis-Regr-Tabular/TSTWM-RvsMLP-BP-R/winewhite_ByFoldByAlgorithm_s0.stat" "../results/Vis-Regr-Tabular/TSTWM-RvsMLP-BP-R/Summary_Test_s0.stat" "../results/Vis-Regr-Tabular/TSTWM-RvsMLP-BP-R/Summary_Train_s0.stat" 
+
+seed = 390706926
+subAlgorithm = StatTabularCL
+dataformat = keel
+outlabel = CHK
+1-RMS by algorithm and by fold = YES
+1-Header size in previous table = 2
+1-Data used in previous table = TEST-TRAIN
+2-Global Average and Variance = YES
+2-Header size in previous table = 2
+2-Data used in previous table = TEST-TRAIN

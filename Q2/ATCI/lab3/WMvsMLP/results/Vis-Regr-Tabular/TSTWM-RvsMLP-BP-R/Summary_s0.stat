@@ -1,0 +1,18 @@
+
+
+------------------------------------------------------
+Global Average and Variance
+------------------------------------------------------
+
+
+TEST RESULTS
+
+DATASET,WM-R.winewhite,WM-R.winewhite,MLP-BP-R.winewhite,MLP-BP-R.winewhite
+,Average (MSE), Variance (MSE) ,Average (MSE), Variance (MSE) 
+winewhite ,3.203397247216E14,1.588196543521E27,6.167848321941E13,1.787196730823E25
+
+TRAIN RESULTS
+
+DATASET,WM-R.winewhite,WM-R.winewhite,MLP-BP-R.winewhite,MLP-BP-R.winewhite
+,Average (MSE), Variance (MSE) ,Average (MSE), Variance (MSE) 
+winewhite ,3.206284001843E14,2.132307998552E27,6.076280989872E13,1.856597355947E24

@@ -1,0 +1,41 @@
+**************************************************************************************************************************************************************************
+
+	KEEL SOFTWARE TOOL - Open Source - V2014-01-29
+
+**************************************************************************************************************************************************************************
+
+KEEL Version 2014-01-29 is available now.
+
+New features (from v2013-07-03):
+
+	1. Added the Fuzzy Unordered Rule Induction Algorithm (FURIA-C) algorithm implementation in the Fuzzy Rule Learning for Classification section. 
+	
+	2. Corrected some bugs in the C-SVM Cost-Sensitive algorithm (C_SVMCS-I) implementation in the Cost-Sensitive Classification (Imbalanced Classification) section.
+	
+	3. Added the AUC performance using the trapezoidal rule for some methods in the Imbalanced Classification section:
+		3.1 For the C4.5 Cost-Sensitive algorithm (C45CS-I) in the Cost-Sensitive Classification section.
+		3.2 For the C-SVM Cost-Sensitive algorithm (C_SVMCS-I) in the Cost-Sensitive Classification section.
+		3.3 For the Cost Sensitive Boosting with C4.5 Decision Tree as Base Classifier algorithm (AdaC2-I) in the Ensembles for Class Imbalance section.
+		3.4 For the Adaptive Boosting with C4.5 Decision Tree as Base Classifier algorithm (AdaBoost-I) in the Ensembles for Class Imbalance section.
+		3.5 For the Adaptive Boosting First Multi-Class Extension with C4.5 Decision Tree as Base Classifier algorithm (AdaBoostM1-I) in the Ensembles for Class Imbalance section.
+		3.6 For the Adaptive Boosting Second Multi-Class Extension with C4.5 Decision Tree as Base Classifier algorithm (AdaBoostM2-I) in the Ensembles for Class Imbalance section.
+		3.7 For the Bootstrap Aggregating with C4.5 Decision Tree as Base Classifier algorithm (Bagging-I) in the Ensembles for Class Imbalance section.
+		3.8 For the BalanceCascade Ensemble with C4.5 Decision Tree as Base Classifier algorithm (BalanceCascade-I) in the Ensembles for Class Imbalance section.
+		3.9 For the Boosting with Data Generation for Imbalanced Data with C4.5 Decision Tree as Base Classifier algorithm (DataBoost-IM-I) in the Ensembles for Class Imbalance section.
+		3.10 For the EasyEnsemble Ensemble with C4.5 Decision Tree as Base Classifier algorithm (EasyEnsemble-I) in the Ensembles for Class Imbalance section.
+		3.11 For the Integrating Selective Pre-processing of Imbalanced Data with Ivotes Ensemble with C4.5 Decision Tree as Base Classifier algorithm (IIVotes-I) in the Ensembles for Class Imbalance section.
+		3.12 For the Modified Synthetic Minority Over-sampling TEchnique Bagging with C4.5 Decision Tree as Base Classifier algorithm (MSMOTEBagging-I) in the Ensembles for Class Imbalance section.
+		3.13 For the Modified Synthetic Minority Over-sampling TEchnique Boost with C4.5 Decision Tree as Base Classifier algorithm (MSMOTEBoost-I) in the Ensembles for Class Imbalance section.
+		3.14 For the Over-sampling Minority Classes Bagging with C4.5 Decision Tree as Base Classifier algorithm (OverBagging-I) in the Ensembles for Class Imbalance section.
+		3.15 For the Over-sampling Minority Classes Bagging 2 with C4.5 Decision Tree as Base Classifier algorithm (OverBagging2-I) in the Ensembles for Class Imbalance section.
+		3.16 For the Random Under-Sampling Boosting with C4.5 Decision Tree as Base Classifier algorithm (RUSBoost-I) in the Ensembles for Class Imbalance section.
+		3.17 For the Synthetic Minority Over-sampling TEchnique Bagging with C4.5 Decision Tree as Base Classifier algorithm (SMOTEBagging-I) in the Ensembles for Class Imbalance section.
+		3.18 For the Synthetic Minority Over-sampling TEchnique Boosting with C4.5 Decision Tree as Base Classifier algorithm (SMOTEBoost-I) in the Ensembles for Class Imbalance section.
+		3.19 For the Under-sampling Minority Classes Bagging with C4.5 Decision Tree as Base Classifier algorithm (UnderBagging-I) in the Ensembles for Class Imbalance section.
+		3.20 For the Under-sampling Minority Classes Bagging 2 with C4.5 Decision Tree as Base Classifier algorithm (UnderBagging2-I) in the Ensembles for Class Imbalance section.
+		3.21 For the Under-sampling Minority Classes Bagging to Over-sampling Minority Classes Bagging with C4.5 Decision Tree as Base Classifier algorithm (UnderOverBagging-I) in the Ensembles for Class Imbalance section.
+
+	4. Corrected some bugs in the Radial Basis Function Neural Network for Classification Problems (RBFN-C) implementation in the Neural Networks for Classification section.
+	
+	5. Corrected some bugs in the Incremental Radial Basis Function Neural Network for Classification Problems (Incr-RBFN-C) implementation in the Neural Networks for Classification section.
+	

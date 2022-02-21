@@ -1,0 +1,20 @@
+------------------------------------------------------
+P-Value Matrix
+Dataset used: result4s0.tra
+------------------------------------------------------
+
+---- Confidence level=0.99 ----
+,WM-R.winewhite,MLP-BP-R.winewhite
+WM-R.winewhite,0.0000,0.0506
+MLP-BP-R.winewhite,0.0000,0.0000
+
+---- Confidence level=0.95 ----
+,WM-R.winewhite,MLP-BP-R.winewhite
+WM-R.winewhite,0.0000,0.0506
+MLP-BP-R.winewhite,0.0000,0.0000
+
+---- Confidence level=0.9 ----
+,WM-R.winewhite,MLP-BP-R.winewhite
+WM-R.winewhite,0.0000,0.0506
+MLP-BP-R.winewhite,0.0000,0.0000
+

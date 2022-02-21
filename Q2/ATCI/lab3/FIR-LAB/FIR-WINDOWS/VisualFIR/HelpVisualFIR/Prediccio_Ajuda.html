@@ -1,0 +1,308 @@
+<html>
+<body>
+
+<table bgcolor="#ffe4b0" border=0 width="100%" cellpadding=0 cellspacing=0 id="table1"><tr valign=top><td align=left width=20>
+	<a href="VisualFIR_Ajuda.html">
+	<img border="0" src="b_prev.gif" width="17" height="17"></a>&nbsp;</td><td align=left>
+			VisualFIR</td></tr></table>
+<p align="center"><font size="6">Pantalla de predicció</font></p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">El mètode de 
+predicció del FIR es basa en la regla del k-nearest neighbour (k veïns més 
+propers). El procediment és el següent:</p>
+<ul>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Es situa la màscara òptima a partir 
+de la primera fila de la matriu qualitativa de&nbsp; classes, i s’obté un patró de la 
+mateixa manera com els obteníem per construir les matrius d’entrada/sortida, 
+però ara només ens fixarem en els valors que coincideixin amb els m-inputs. 
+L’anomenarem patró d’entrades actual.</p></li>
+</ul>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="center">
+<span style="color:black">&nbsp;<img border="0" src="FigPred1.bmp" width="588" height="213"></span></p>
+<span style="color:black">
+<ul>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Es seleccionen els patrons d’entrades 
+de la matriu de comportament de classes, que coincideixin amb el nostre patró. 
+Aquest patrons s’anomenen veïns.</p></li>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Es calcula la distància de cada patró 
+veí de la matriu de comportament amb el patró actual.</p></li>
+</ul>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Per poder 
+comparar els valors d’entrada de les matrius de comportament, amb els valors 
+d’entrada actuals, s’obté un valor quantitatiu normalitzat entre 0 i 1 que 
+permet comparar variables amb rangs diferents. Aquesta normalització depèn de la 
+pertinença i el valor de costat.</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Haurem 
+d’obtenir aquest valor quantitatiu per cadascuna de les variables que intervenen 
+en l’entrada.</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Per cada variable del patró:</p>
+<blockquote>
+	<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Per les classes centrals</p>
+	<blockquote>
+		<blockquote>
+			<p class="MsoNormal">P<sub>i</sub>= costat<sub>i
+</sub>* B * sqrt(ln&nbsp; Pertinença<sub>i</sub> ) + 0.5</p>
+			<blockquote>
+				<p class="MsoNormal">on B= (4*ln0.5)<sup>-1/2</sup></p>
+			</blockquote>
+		</blockquote>
+		<p class="MsoNormal">Per les classes dels extremes:</p>
+		<blockquote>
+			<p class="MsoNormal">la petita:&nbsp; p<sub>i</sub> = C * 
+sqrt(ln&nbsp; Pertinença <sub>i</sub> ) </p>
+			<p class="MsoNormal">la gran&nbsp;&nbsp; :&nbsp; p<sub>i</sub> =1- 
+C * sqrt(ln&nbsp; Pertinença <sub>i</sub> ) </p>
+			<blockquote>
+				<p class="MsoNormal">on C = (ln0.5)<sup>-1/2</sup></p>
+			</blockquote>
+		</blockquote>
+	</blockquote>
+</blockquote>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Els valors p<sub>i</sub> 
+corresponents a diferents variables d’un estat d’entrada són concatenats per a 
+formar un vector de la forma:</p>
+<blockquote>
+	<blockquote>
+		<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">p = [p<sub>1</sub>,p<sub>2</sub>, 
+... , p<sub>j</sub><span style="font-family: Symbol">]</span></p>
+	</blockquote>
+</blockquote>
+<ul>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Amb el vector de la nova entrada i 
+els vectors obtinguts de la matriu d’entrada/sortida es calcula una distància 
+mitjançant la normal L<sub>2</sub>. La distància per cadascun dels veïns serà:</p>
+	</li>
+</ul>
+<blockquote>
+	<blockquote>
+		<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">dveí 
+= || pactual – pveí ||<sub>2</sub> = sqrt(<span style="font-family: Symbol">å</span><sub>i=1,n</sub> 
+(pi actual – pi vei)<sup>2</sup>)</p>
+		<blockquote>
+			<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">on n és el número de variables d’entrada.</p>
+		</blockquote>
+	</blockquote>
+</blockquote>
+<ul>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Els 5 vectors (o veïns) amb una 
+distància inferior són els anomenats 5 veïns més propers, i serà sobre aquests 
+que es farà la predicció de la sortida del patró actual. Si no hi ha cap veí a 
+la matriu de comportament, llavors no es pot predir la sortida. Si hi ha menys 
+de 5 veïns, llavors es fa la predicció amb els que tinguem.</p></li>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Es calculen els pesos absoluts de 
+cada veí. Hi ha diferents fórmules per calcular els pesos absoluts. Seguidament 
+les exposem:</p></li>
+</ul>
+<blockquote>
+	<blockquote>
+		<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Fórmula 
+de l’Àngela: </p>
+		<blockquote>
+			<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">La primera de 
+les fórmules, aplica un càlcul diferent depenent de si hi ha algun dels veïns 
+que té distància 0 o no.</p>
+			<blockquote>
+				<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Si cap dels 
+veïns te distància 0, llavors:</p>
+				<blockquote>
+					<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">PesAbsolutveí = ( dmax<sup>2</sup>– dveí<sup>2</sup>)/dmax*dveí&nbsp;
+					</p>
+					<blockquote>
+						<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">On dmax és el veí amb la distància més gran.</p>
+					</blockquote>
+				</blockquote>
+				<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Si algun dels 
+veïns te distància 0, llavors:</p>
+			</blockquote>
+		</blockquote>
+	</blockquote>
+</blockquote>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin"></p>
+<p align="center"><!--[if gte mso 9]>
+<img border="0" src="../Help/Prediccio_Ajuda_archivos/image002.gif" width="204" height="48"><![endif]--></p>
+<blockquote>
+	<blockquote>
+		<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;</p>
+		<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Fórmula 
+de Budapest: </p>
+		<blockquote>
+			<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">La segona 
+fórmula, aplica una distància quasi 0 als veïns que tenen distància 0.</p>
+			<blockquote>
+				<p class="MsoNormal">Si d<sub>veí </sub>= 0&nbsp;&nbsp; -&gt;&nbsp; d<sub>veí</sub>=épsilon</p>
+				<p class="MsoNormal">PesAbsolut<sub>veí</sub> = 1/(d<sub>veí</sub>/<span style="font-family: Symbol">å</span><sub>i=1,nºveins</sub>&nbsp; 
+d<sub>veíi</sub>)</p>
+			</blockquote>
+		</blockquote>
+		<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Fórmula de 
+Màlaga: </p>
+		<blockquote>
+			<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;La 
+tercera fórmula es basa en el veí de distància més gran.</p>
+		</blockquote>
+	</blockquote>
+</blockquote>
+<p class="MsoNormal"></p>
+<p align="center"><!--[if gte mso 9]>
+<img border="0" src="../Help/Prediccio_Ajuda_archivos/image004.gif" width="324" height="51"><![endif]--></p>
+<blockquote>
+	<blockquote>
+		<blockquote>
+			<blockquote>
+				<blockquote>
+					<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;</p>
+					<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">On d<sub>max
+					</sub>és el 
+veí amb la distància més gran.</p>
+				</blockquote>
+			</blockquote>
+		</blockquote>
+		<p class="MsoNormal" align="justify">Encara hi ha una altra fórmula que permet a l’usuari 
+aplicar un factor x, que doni més o menys pes als veïns més propers (aquesta no 
+està implementada). </p>
+		<blockquote>
+			<p class="MsoNormal">PesAbsolutveí = ((dmax – dveí)/dmax)<sup>x</sup></p>
+			<blockquote>
+				<p class="MsoNormal">Si x és gran, dona més pes als veïns més 
+pròxims.</p>
+				<p class="MsoNormal">Si x és petita, iguala els pesos de tots 
+els veïns.</p>
+			</blockquote>
+		</blockquote>
+	</blockquote>
+</blockquote>
+<ul>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">
+	Seguidament es calculen els pesos 
+relatius:</p></li>
+</ul>
+<blockquote>
+	<blockquote>
+		<p class="MsoNormal">SumaPesos = <span style="font-family: Symbol">å</span><sub><span style="font-family: Symbol">&quot;</span>veí</sub> 
+PesAbsolutveí</p>
+		<p class="MsoNormal">PesRelatiuveí = PesAbsolutveí/SumaPesos</p>
+		<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Aquests pesos relatius son valors entre 0 i 1, i tots sumats, sumen 1,per tant 
+els pesos relatius es poden interpretar com percentatges.</p>
+	</blockquote>
+</blockquote>
+<ul>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Així doncs, el valor normalitzat de 
+la sortida es pot calcular com la suma de les sortides de cadascun dels 5 veïns 
+més propers.</p></li>
+</ul>
+<blockquote>
+	<blockquote>
+		<p class="MsoNormal"><span style="font-size:11.0pt">SortidaNormactual =&nbsp;
+		</span><span style="font-size: 11.0pt; font-family: Symbol">å</span><sub><span style="font-size: 11.0pt; font-family: Symbol">&quot;</span><span style="font-size:11.0pt">veí</span></sub><span style="font-size:11.0pt"> 
+PesRelatiuveí *(Classesortida veí + Pertinençasortida veí)</span></p>
+		<blockquote>
+			<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">On 
+Pertinençasortida veí és el normalitzat.</p>
+		</blockquote>
+	</blockquote>
+</blockquote>
+<ul>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Llavors ja es poden obtenir els 
+valors normalitzats de la sortida pel&nbsp; patró d’entrades actual:</p></li>
+</ul>
+<blockquote>
+	<blockquote>
+		<p class="MsoNormal">Classesortida actual =
+		<span style="font-family: Symbol">ë</span> SortidaNormactual
+		<span style="font-family: Symbol">û</span></p>
+		<p class="MsoNormal">Pertinençasortida actual = SortidaNormactual - 
+Classesortida actual</p>
+	</blockquote>
+</blockquote>
+<ul>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Finalment, aplicant la fórmula 
+inversa a la utilitzada en la normalització, obtindrem el valor de sortida de 
+classe,&nbsp; de pertinença i de costat.</p></li>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Es desplaça la màscara una fila cap 
+avall de les matrius de dades qualitatives i es torna a repetir tot el procés.</p>
+	</li>
+</ul>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">El procés es 
+repetirà fins a arribar al final de la matriu de dades qualitatives. El nombre 
+de prediccions que com a màxim es pot realitzar es:</p>
+<p class="MsoNormal"></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Nº prediccions = nº files matriu dades entrada – profunditat de la màscara +1
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Diem com a 
+màxim perquè pot ser no es trobi cap veí per algun patró actual d’entrades i 
+llavors no es pot fer la predicció.</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Tampoc es 
+podrà fer la predicció si alguna variable que intervé en el patró actual conté 
+el valor missing de la mostra.</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Al final 
+d’aquesta fase disposem, doncs, de la matriu dels valors predits que hem simulat 
+a partir de la matriu de dades qualitatives i de la màscara òptima. Recordem que 
+aquesta matriu de valors predits està encara descrita en valors qualitatius, amb 
+valors de pertinença i costat obtinguts partint del comportament anterior del 
+sistema (el reflexat a les matrius de comportament).</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Esquema del 
+procés de predicció difusa: </p>
+<p align="center">
+<img border="0" src="FigPred2.bmp" width="597" height="617"></p>
+<p>&nbsp;</p>
+	<h2><font size="5">Model</font></h2>
+	<h2><font size="4">Fitxer</font></h2>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Nom del 
+	fitxer d’entrada del model. El nom per defecte d’aquest 
+	fitxer, és el que s’ha posat com a sortida de la pantalla anterior (Pantalla 
+	de modelatge). La modificació del nom del fitxer, es permet per si es vol 
+	predir algun model estudiat prèviament. Quan es prem el boto de <i>Predicció</i>, si el fitxer no existeix, es restaura automàticament el nom 
+	del fitxer anterior.</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;</p>
+	<h2><font size="5">Dades de predicció</font></h2>
+	<h2><font size="4">Fitxer d’entrada</font></h2>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Nom del 
+	fitxer d’entrada de dades de la pantalla. El nom per defecte d’aquest 
+	fitxer, és el que s’ha posat com a sortida de la pantalla de dades de 
+	predicció. La modificació del nom del fitxer, es permet per si es vol 
+	predir noves dades. Quan es prem el boto de <i>Predicció</i>, si el fitxer no existeix, es restaura automàticament el nom 
+	del fitxer anterior.</p>
+	<h2><font size="4">Fitxer de sortida</font></h2>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Nom del 
+	fitxer de sortida de la predicció. El nom per defecte d’aquest 
+	fitxer és: <i>FDadesPrediccio.mat</i>&nbsp; i es pot modificar amb qualsevol nom 
+	que permeti el sistema operatiu.</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;</p>
+	<h2>Predicció</h2>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Boto que 
+	inicia la predicció de les dades del fitxer d’entrada de variables 
+	amb el model i guarda el resultat al fitxer de sortida. Per fer 
+	la predicció de les dades s’utilitza la funció <i>Forecast.dll</i> de 
+	FIR, implementada en C.</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;</p>
+	<h2>Paràmetres</h2>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Crida a la 
+	finestra de paràmetres per configurar els paràmetres útils per aquesta 
+	pantalla.</p>
+	<h2>Sortir</h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<table bgcolor="#ffe4b0" border=0 width="100%" cellpadding=0 cellspacing=0 id="table1"><tr valign=top><td align=left width=20>
+	<a href="VisualitzarModel_Ajuda.html">
+	<img border="0" src="b_prev.gif" width="17" height="17"></a>&nbsp;</td><td align=left>&nbsp;Visualització del model</td><td align=right>
+	Regeneració&nbsp;</td><td align=right width=20>
+		<a href="Regenerar_Ajuda.html">
+		<img border="0" src="b_next.gif" width="17" height="17"></a></td></tr></table>
+<table bgcolor="#FFFFFF" border=0 width="100%" cellpadding=0 cellspacing=0 id="table1"><tr valign=top><td align=left width=20>
+	&nbsp;</td></tr></table>
+<table bgcolor="#ffe4b0" border=0 width="100%" cellpadding=0 cellspacing=0 id="table1"><tr valign=top><td align=left width=20>
+	<a href="Test_Ajuda.html">
+	<img border="0" src="b_prev.gif" width="17" height="17"></a>&nbsp;</td><td align=left>
+	&nbsp;Dades de test</td></tr></table>
+</body>
+</html>

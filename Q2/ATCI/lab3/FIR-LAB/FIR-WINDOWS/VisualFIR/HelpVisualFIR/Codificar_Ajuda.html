@@ -1,0 +1,694 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<style>
+<!--
+ table.MsoNormalTable
+	{mso-style-parent:"";
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+-->
+</style>
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]-->
+<link rel="File-List" href="Codificar_Ajuda_archivos/filelist.xml">
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+</head>
+
+<body>
+
+<table bgcolor="#ffe4b0" border=0 width="100%" cellpadding=0 cellspacing=0 id="table1"><tr valign=top><td align=left width=20>
+	<a href="VisualFIR_Ajuda.html">
+	<img border="0" src="b_prev.gif" width="17" height="17"></a>&nbsp;</td><td align=left>
+			VisualFIR</td></tr></table>
+<p align="center"><font size="6">Pantalla de codificar</font></p>
+<span style="color:black">
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">
+	La motivació per fer una transformació qualitativa de les dades reals i 
+	classificar-les aplicant les tècniques de la lògica difusa, es basa en que 
+	en les diferents etapes de la metodologia cal aplicar processos 
+	d’optimització a subconjunts de dades. Fent una classificació de les dades 
+	reduïm enormement l’espai de cerca, i s’aconsegueix molta més eficiència.&nbsp;</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">
+La contrapartida a aquesta eficiència és una pèrdua d’informació.(Per exemple 
+dir que l’alçada d’una persona es classifica com ‘alta’ ens dóna menys 
+informació que dir que la persona fa 1’95m d’alçada).</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">
+&nbsp;En la metodologia del FIR s’ha aconseguit no perdre informació en aquesta 
+transformació definint tres components qualitatives que conserven tota la 
+informació original de la dada quantitativa.</p>
+<ul>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Component 
+	de classe (class): Classificació del valor.</li>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Component 
+	de pertinença (membership): Mida de pertinença del valor dins la classe.</li>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Component 
+	de costat (side): Costat que ocupa el valor dins la classe en funció del 
+	valor central.</li>
+</ul>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;A continuació 
+es mostra un exemple de la representació qualitativa d’una variable de 
+temperatura que duria a terme el procés de codificació del FIR:</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;</p>
+<div style="mso-element:frame;mso-element-frame-hspace:7.1pt;mso-element-wrap:
+no-wrap-beside;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+page;mso-element-left:center;mso-element-top:8.85pt;mso-height-rule:exactly">
+	<table cellspacing="0" cellpadding="0" hspace="0" vspace="0" align="center" id="table2">
+		<tr>
+			<td valign="top" align="left" style="padding-top:0cm;padding-right:7.1pt;
+  padding-bottom:0cm;padding-left:7.1pt">
+			<p class="MsoNormal"><span style="color:black"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1068" type="#_x0000_t75" style='width:373.5pt;
+ height:174pt'>
+ <v:imagedata src="" o:title=""/>
+</v:shape><![endif]--><!--[if gte mso 9]><![endif]--></span></td>
+		</tr>
+	</table>
+</div>
+<br clear="ALL">
+&nbsp;El valor de 23ºC, es classifica com a ‘normal’, amb una mida de pertinença de 
+0.895 i es troba situat al costat dret respecte al valor central de la classe.<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">
+Aquest sistema de codificació permet passat del valor quantitatiu al qualitatiu 
+i a l’inrevés.</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">
+El mètode de codificació requereix d’un treball previ per definir les classes en 
+que es vol discretitzar cada variable i quins han de ser els límits inferior i 
+superior de cada classe. És aconsellable utilitzar un màxim de cinc classes, i 
+hi ha diferents mètodes, com el clustering difús que ajuden a decidir sobre el 
+número de valors de classificació. Per definir les fronteres de cada classe, 
+també existeixen mètodes que es basen en el model “cru” i el nombre de classes 
+decidit. Actualment en el SAPS-II s’utilitza el mètode de “igual freqüència”,&nbsp; 
+que consisteix en definir les classes de manera que totes tinguin la mateixa 
+distància entre els seus límits.</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;En l’exemple 
+anterior de la temperatura seria:</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;</p>
+<div align="center">
+	<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table3">
+		<tr>
+			<td width="142" valign="top" style="width: 106.35pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: 1.0pt solid windowtext; border-bottom: medium none; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm; background: #A6A6A6">
+			<p class="MsoNormal" align="center" style="text-align: center">
+			<span style="font-size: 9.0pt; color: black">&nbsp;</span></td>
+			<td width="77" valign="top" style="width: 58.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 1.0pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm; background: #A6A6A6">
+			<p class="MsoNormal" align="center" style="text-align:center">Fred</td>
+			<td width="77" valign="top" style="width: 58.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 1.0pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm; background: #A6A6A6">
+			<p class="MsoNormal" align="center" style="text-align:center">Fresc</td>
+			<td width="77" valign="top" style="width: 58.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 1.0pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm; background: #A6A6A6">
+			<p class="MsoNormal" align="center" style="text-align:center">Normal</td>
+			<td width="77" valign="top" style="width: 58.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 1.0pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm; background: #A6A6A6">
+			<p class="MsoNormal" align="center" style="text-align:center">Tebi</td>
+			<td width="78" valign="top" style="width: 58.15pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 1.0pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm; background: #A6A6A6">
+			<p class="MsoNormal" align="center" style="text-align:center">
+			Calorós</td>
+		</tr>
+		<tr>
+			<td width="142" valign="top" style="width: 106.35pt; border: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm; background: #A6A6A6">
+			<p class="MsoNormal" align="center" style="text-align:center">Valor 
+			inferior</td>
+			<td width="77" valign="top" style="width: 58.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">-1</td>
+			<td width="77" valign="top" style="width: 58.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">8</td>
+			<td width="77" valign="top" style="width: 58.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">13</td>
+			<td width="77" valign="top" style="width: 58.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">27</td>
+			<td width="78" valign="top" style="width: 58.15pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">33</td>
+		</tr>
+		<tr>
+			<td width="142" valign="top" style="width: 106.35pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm; background: #A6A6A6">
+			<p class="MsoNormal" align="center" style="text-align:center">Valor 
+			superior</td>
+			<td width="77" valign="top" style="width: 58.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">8</td>
+			<td width="77" valign="top" style="width: 58.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">13</td>
+			<td width="77" valign="top" style="width: 58.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">27</td>
+			<td width="77" valign="top" style="width: 58.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">33</td>
+			<td width="78" valign="top" style="width: 58.15pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">50</td>
+		</tr>
+	</table>
+</div>
+<p class="MsoNormal">Amb aquesta informació el mòdul de codificació ja pot 
+obtenir les informacions qualitatives de classe i costat.</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">Per obtenir la 
+informació de la pertinença, es poden aplicar dues fórmules:</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">La fórmula 
+gaussiana:</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pert<sub>i</sub> = exp ( -
+<span style="font-family: Symbol">t</span><sub>i</sub>&nbsp; ( x -
+<span style="font-family: Symbol">m</span><sub>i </sub>)<sup>2</sup>)</p>
+<ul>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">x és el 
+	valor quantitatiu a codificar. </li>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">
+	<span style="font-family: Symbol">m</span>i és real i és la mitjana 
+	algebraica entre dues fronteres veïnes. (el valor central de la classe on 
+	s’ha classificat x). </li>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">
+	<span style="font-family: Symbol">t</span>i &gt; 0 i es determina de tal manera 
+	que la funció Pert<sub>i</sub> tingui&nbsp; un valor de 0.5 en les dues 
+	fronteres(valor inferior i valor superior de la classe).</li>
+</ul>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;La fórmula 
+triangular:</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="center" style="text-align:center">
+<span style="position: relative; top: 23.0pt"><!--[if gte vml 1]><v:shape id="_x0000_s1067" type="#_x0000_t75"
+ style='width:338.25pt;height:51.75pt'>
+ <v:imagedata src="" o:title=""/>
+</v:shape><![endif]--></span></p>
+<ul>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="center" style="text-align: left">
+	x és el valor quantitatiu a codificar. </li>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="center" style="text-align: left">
+	<span style="font-family: Symbol">m</span>i és real i és la mitjana 
+	algebraica entre dues fronteres veïnes. (el valor central de la classe on 
+	s’ha classificat x). </li>
+	<li>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="center" style="text-align: left">
+	d és real i és la distància entre el valor central de la classe i les 
+	fronteres.</li>
+</ul>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">
+&nbsp;El resultat d’aquest mòdul són tres matrius de les mateixes dimensions que la 
+matriu d’entrada, el model ‘cru’ de dades. En una hi ha els valors corresponents 
+a la component qualitativa de classe, la segona conté la informació de la funció 
+de pertinença, i la tercera conté la informació de costat.</p>
+<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin">&nbsp;A continuació 
+és mostra un esquema de les estructures d’entrada i sortida del procés:</p>
+<!--[if gte vml 1]><v:group id="_x0000_s1047" style='position:absolute;
+ margin-left:114.75pt;margin-top:-2.25pt;width:446.25pt;height:394.5pt;
+ z-index:1' coordorigin="1584,8618" coordsize="8928,7893">
+ <v:rect id="_x0000_s1048" style='position:absolute;left:2592;top:9378;width:2016;
+  height:1872' wrapcoords="-161 -173 -161 21427 21761 21427 21761 -173 -161 -173"
+  o:allowincell="f" filled="f"/>
+ <v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
+  <v:stroke joinstyle="miter"/>
+  <v:path gradientshapeok="t" o:connecttype="rect"/>
+ </v:shapetype><v:shape id="_x0000_s1049" type="#_x0000_t202" style='position:absolute;
+  left:2448;top:8658;width:2736;height:576' wrapcoords="-119 0 -119 21032 21600 21032 21600 0 -119 0"
+  o:allowincell="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1049'>
+<![if !mso]>
+<table cellpadding="0" cellspacing="0" width="100%" id="table15">
+	<tr>
+		<td><![endif]>
+		<div>
+			<p class="MsoNormal" align="center" style="text-align:center">
+			<span style="font-size:8.0pt;mso-bidi-font-size:12.0pt">Matriu de 
+			dades quantitatives<o:p></o:p></span></p>
+			<p class="MsoNormal">
+			<span style="font-size:8.0pt;mso-bidi-font-size:12.0pt">
+			<span style="mso-spacerun:yes">&nbsp;&nbsp; </span>U1<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span>U2<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>U3<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;
+			</span>
+			<o:p></o:p>
+			</span></div>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1050" type="#_x0000_t202" style='position:absolute;
+  left:5018;top:10260;width:4298;height:698' wrapcoords="-75 0 -75 21140 21600 21140 21600 0 -75 0"
+  stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1050'>
+<![if !mso]>
+<table cellpadding="0" cellspacing="0" width="100%" id="table14">
+	<tr>
+		<td><![endif]>
+		<div>
+			<p class="MsoNormal" align="center" style="text-align:center">
+			<span style="font-size:10.0pt;mso-bidi-font-size:12.0pt">Informació 
+			dels límits inferiors i superiors per cadascuna de les classes<o:p></o:p></span></div>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1051" type="#_x0000_t202" alt="" style='position:absolute;
+  left:2858;top:12398;width:5472;height:432' wrapcoords="-59 -745 -59 20855 21659 20855 21659 -745 -59 -745"
+  fillcolor="#cff">
+  <v:textbox style='mso-next-textbox:#_x0000_s1051'>
+<![if !mso]>
+<table cellpadding="0" cellspacing="0" width="100%" id="table13">
+	<tr>
+		<td><![endif]>
+		<div>
+			<p class="MsoNormal" align="center" style="text-align:center">
+			<span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD">RECODIFICACIÓ<o:p></o:p></span></div>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]></v:textbox>
+ </v:shape><v:line id="_x0000_s1052" style='position:absolute' from="3758,11318"
+  to="3758,12218" wrapcoords="3 1 1 53 3 59 8 59 10 53 7 1 3 1" o:allowincell="f">
+  <v:stroke endarrow="block"/>
+ </v:line><v:line id="_x0000_s1053" style='position:absolute;flip:x' from="6998,11138"
+  to="6998,12218" wrapcoords="3 1 0 65 3 71 8 71 11 65 7 49 7 1 3 1">
+  <v:stroke endarrow="block"/>
+ </v:line><v:shape id="_x0000_s1054" type="#_x0000_t202" style='position:absolute;
+  left:5558;top:9361;width:2520;height:432' wrapcoords="-129 0 -129 20855 21600 20855 21600 0 -129 0"
+  stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1054'>
+<![if !mso]>
+<table cellpadding="0" cellspacing="0" width="100%" id="table12">
+	<tr>
+		<td><![endif]>
+		<div>
+			<p class="MsoNormal" align="center" style="text-align:center">
+			<span style="font-size:10.0pt;mso-bidi-font-size:12.0pt">Definició 
+			de classes<o:p></o:p></span></div>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1055" type="#_x0000_t202" style='position:absolute;
+  left:7344;top:13658;width:2736;height:576' wrapcoords="-119 0 -119 21032 21600 21032 21600 0 -119 0"
+  stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1055'>
+<![if !mso]>
+<table cellpadding="0" cellspacing="0" width="100%" id="table11">
+	<tr>
+		<td><![endif]>
+		<div>
+			<p class="MsoNormal"><span style="font-size:8.0pt">Matriu 
+			qualitativa de costat<o:p></o:p></span></p>
+			<p class="MsoNormal" align="center" style="text-align:center">
+			<span style="font-size:8.0pt;mso-bidi-font-size:12.0pt">U1<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span>U2<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>U3<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;
+			</span>
+			<o:p></o:p>
+			</span></div>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]></v:textbox>
+ </v:shape><v:rect id="_x0000_s1056" style='position:absolute;left:1584;top:8618;
+  width:8928;height:7893' wrapcoords="-36 -41 -36 21559 21636 21559 21636 -41 -36 -41"
+  filled="f"/>
+ <v:shape id="_x0000_s1057" type="#_x0000_t202" style='position:absolute;
+  left:4608;top:13658;width:2880;height:576' wrapcoords="-112 0 -112 21032 21600 21032 21600 0 -112 0"
+  stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1057'>
+<![if !mso]>
+<table cellpadding="0" cellspacing="0" width="100%" id="table10">
+	<tr>
+		<td><![endif]>
+		<div>
+			<p class="MsoNormal">
+			<span style="font-size:8.0pt;mso-bidi-font-size:12.0pt">Matriu 
+			qualitativa de pertinença<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span>
+			<o:p></o:p>
+			</span></p>
+			<p class="MsoNormal">
+			<span style="font-size:8.0pt;mso-bidi-font-size:12.0pt">
+			<span style="mso-spacerun:yes">&nbsp;&nbsp; </span>U1<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span>U2<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>U3<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span>
+			<o:p></o:p>
+			</span></div>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]></v:textbox>
+ </v:shape><v:line id="_x0000_s1058" style='position:absolute;flip:x' from="3600,13118"
+  to="4032,13406" wrapcoords="-745 0 14897 20463 17131 20463 22345 20463 22345 17053 17876 11368 2234 0 -745 0">
+  <v:stroke endarrow="block"/>
+ </v:line><v:line id="_x0000_s1059" style='position:absolute' from="5616,13118"
+  to="5616,13406" wrapcoords="3 1 1 10 3 18 8 18 10 10 7 1 3 1">
+  <v:stroke endarrow="block"/>
+ </v:line><v:line id="_x0000_s1060" style='position:absolute' from="7344,13118"
+  to="7776,13406" wrapcoords="-745 0 14897 20463 17131 20463 22345 20463 22345 17053 17876 11368 2234 0 -745 0">
+  <v:stroke endarrow="block"/>
+ </v:line><v:shape id="_x0000_s1061" type="#_x0000_t202" style='position:absolute;
+  left:1728;top:13658;width:2592;height:576' wrapcoords="-125 0 -125 21032 21600 21032 21600 0 -125 0"
+  stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1061'>
+<![if !mso]>
+<table cellpadding="0" cellspacing="0" width="100%" id="table9">
+	<tr>
+		<td><![endif]>
+		<div>
+			<p class="MsoNormal" align="center" style="text-align:center">
+			<span style="font-size:8.0pt;mso-bidi-font-size:12.0pt">Matriu 
+			qualitativa de classes<o:p></o:p></span></p>
+			<p class="MsoNormal">
+			<span style="font-size:8.0pt;mso-bidi-font-size:12.0pt">
+			<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>U1<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span>U2<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>U3<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span>
+			<o:p></o:p>
+			</span></div>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1062" type="#_x0000_t202" style='position:absolute;
+  left:2592;top:9378;width:2160;height:1872' wrapcoords="-150 -173 -150 21427 21750 21427 21750 -173 -150 -173"
+  o:allowincell="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1062'>
+<![if !mso]>
+<table cellpadding="0" cellspacing="0" width="100%" id="table8">
+	<tr>
+		<td><![endif]>
+		<div>
+			<p class="MsoNormal">
+			<span lang="ES-TRAD" style="font-size:8.0pt;mso-bidi-font-size:
+     12.0pt;mso-ansi-language:ES-TRAD"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span>
+			<o:p></o:p>
+			</span></div>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1063" type="#_x0000_t202" style='position:absolute;
+  left:6746;top:9810;width:432;height:432' wrapcoords="-745 0 -745 20855 21600 20855 21600 0 -745 0"
+  stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1063'>
+<![if !mso]>
+<table cellpadding="0" cellspacing="0" width="100%" id="table7">
+	<tr>
+		<td><![endif]>
+		<div>
+			<p class="MsoNormal">
+			<span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD">+<o:p></o:p></span></div>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1064" type="#_x0000_t202" style='position:absolute;
+  left:2016;top:14306;width:2160;height:1872' wrapcoords="-150 -173 -150 21427 21750 21427 21750 -173 -150 -173">
+  <v:textbox style='mso-next-textbox:#_x0000_s1064'>
+<![if !mso]>
+<table cellpadding="0" cellspacing="0" width="100%" id="table6">
+	<tr>
+		<td><![endif]>
+		<div>
+			<p class="MsoNormal">
+			<span lang="ES-TRAD" style="font-size:8.0pt;mso-bidi-font-size:
+     12.0pt;mso-ansi-language:ES-TRAD"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span>
+			<o:p></o:p>
+			</span></div>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1065" type="#_x0000_t202" style='position:absolute;
+  left:7488;top:14306;width:2160;height:1872' wrapcoords="-150 -173 -150 21427 21750 21427 21750 -173 -150 -173">
+  <v:textbox style='mso-next-textbox:#_x0000_s1065'>
+<![if !mso]>
+<table cellpadding="0" cellspacing="0" width="100%" id="table5">
+	<tr>
+		<td><![endif]>
+		<div>
+			<p class="MsoNormal">
+			<span lang="ES-TRAD" style="font-size:8.0pt;mso-bidi-font-size:
+     12.0pt;mso-ansi-language:ES-TRAD"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span>
+			<o:p></o:p>
+			</span></div>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1066" type="#_x0000_t202" style='position:absolute;
+  left:4752;top:14306;width:2160;height:1872' wrapcoords="-150 -173 -150 21427 21750 21427 21750 -173 -150 -173">
+  <v:textbox style='mso-next-textbox:#_x0000_s1066'>
+<![if !mso]>
+<table cellpadding="0" cellspacing="0" width="100%" id="table4">
+	<tr>
+		<td><![endif]>
+		<div>
+			<p class="MsoNormal">
+			<span lang="ES-TRAD" style="font-size:8.0pt;mso-bidi-font-size:
+     12.0pt;mso-ansi-language:ES-TRAD"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span>
+			<o:p></o:p>
+			</span></div>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]></v:textbox>
+ </v:shape></v:group><![endif]--><![if !vml]><span style='mso-ignore:vglayout;
+position:absolute;z-index:1;left:152px;top:-4px;width:597px;height:528px'><img
+width=597 height=528 src="Codificar_Ajuda_archivos/image001.gif" v:shapes="_x0000_s1047 _x0000_s1048 _x0000_s1049 _x0000_s1050 _x0000_s1051 _x0000_s1052 _x0000_s1053 _x0000_s1054 _x0000_s1055 _x0000_s1056 _x0000_s1057 _x0000_s1058 _x0000_s1059 _x0000_s1060 _x0000_s1061 _x0000_s1062 _x0000_s1063 _x0000_s1064 _x0000_s1065 _x0000_s1066"></span><![endif]><h2>&nbsp;</h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>La pantalla s’activa quan es prem la tecla 'codificar' de la pantalla 
+principal.<img border="0" src="Codifi1.jpg" align="right"></p>
+<p align="justify">Si existeix una codificació prèvia en el directori en que 
+s’està treballant , apareix una finestra per triar si es vol 
+fer una nova codificació o es vol treballar sobre la codificació feta anteriorment. 
+En el primer cas, apareix la pantalla de codificar preparada per llegir el 
+fitxer de dades generat per la pantalla d’entrada de dades. En el segon cas, la 
+pantalla de codificar s’obre amb la casella per modificar el nom del fitxer 
+d’entrada inactiu (no es pot modificar), i amb els camps de les variables, ja 
+emplenats amb la codificació anterior.</p>
+<p>&nbsp;</p>
+<p><font size="5">Dades d’entrenament</font></p>
+<p>Visualitza els noms dels fitxers d’entrada i sortida i les variables del fitxer 
+d’entrada amb la seva classificació.</p>
+<p><font size="4">Fitxer d’entrada</font></p>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Nom del 
+	fitxer d’entrada de dades a classificar. El nom per defecte d’aquest 
+	fitxer, és el que s’ha posat com a sortida de la pantalla anterior (Pantalla 
+	de dades d’entrada). La modificació del nom del fitxer, es permet per si es vol 
+	classificar algun altre conjunt de dades. Quan es prem el boto de <i>Llegir</i>, si el fitxer no existeix, es restaura automàticament el nom 
+	del fitxer anterior.</p>
+<span style="color:black">
+<p><font size="4">Fitxer de sortida</font></p>
+	<p class="EstiloTextoindependienteComicSansMS12ptNegritaInterlin" align="justify">Nom del 
+	fitxer on es guardaran les de dades classificades que serviran per la 
+	següent pantalla (<i>Modelització</i>) o per la mateixa pantalla de 
+	classificació.</p>
+<p><font size="4">Llegir</font></p>
+</span>
+<p>Polsador per llegir el fitxer de les dades d’entrada i carregar les variables 
+a la llista de variables.</p>
+<p>Si no existeix el fitxer de sortida, aquesta llista es carrega de la següent 
+forma:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var = &lt; 
+Nom de la variable &gt; Alg = &lt; Nom d l’algoritme &gt; Clust = &lt; nº de classes &gt;</p>
+<p>El noms de les variables els extreu del fitxer de dades d’entrada, 
+l’algoritme per defecte és el d’igual freqüència, i el nombre de classes per 
+defecte és 3. Tots aquests paràmetres es podran modificar per la zona d’estudi.</p>
+<p>Si existeix el fitxer d’estudi, la llista de variables es carrega de la 
+mateixa forma, però amb els paràmetres d’algoritme i nombre de classes 
+anteriors.</p>
+<p><font size="4">Replicar variable</font></p>
+<p>Copia els paràmetres de la variables seleccionada de la llista de variables a 
+totes les altres. Amb aquesta acció es perden els paràmetres antics.</p>
+<p><font size="4">Generar sortida</font></p>
+<p>&nbsp;Prepara les variables per l’acció de codificació, buscant els llindars de 
+cadascuna de les classes. Habilita el polsador <i>Regenerar</i> i actualitza la 
+zona d’estudi.</p>
+<p>&nbsp;</p>
+<p><font size="5">Zona d’estudi</font></p>
+<p><font size="4">Variable</font></p>
+<p>Nom de la variable que s’està estudiant. (Aquest camp només es pot modificar 
+seleccionant una de les variables de la llista de variables).</p>
+<p><font size="4">Algorismes</font></p>
+<p>Llista d’algorismes implementats per la codificació de la variables.</p>
+<p><font size="4">Paràmetres</font></p>
+<p>Paràmetres que necessita cadascun dels algorismes.</p>
+<p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Llista d’algorismes amb els 
+seus paràmetres:</i></p>
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table16">
+	<tr style="height: 14.8pt">
+		<td width="83" valign="top" style="width: 62.55pt; height: 14.8pt; border: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm; background: #CCFFFF">
+		<h6 style="text-indent: 0cm; margin-left: 0cm">Concepte</h6>
+		</td>
+		<td width="120" valign="top" style="width: 89.8pt; height: 14.8pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 1.0pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm; background: #CCFFFF">
+		<h6 style="text-indent: 0cm; margin-left: 0cm">Exemple</h6>
+		</td>
+		<td width="373" valign="top" style="width: 279.85pt; height: 14.8pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 1.0pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm; background: #CCFFFF">
+		<h6 style="text-indent: 0cm; margin-left: 0cm">Descripció</h6>
+		</td>
+	</tr>
+	<tr style="height: 12.9pt">
+		<td width="83" valign="top" style="width: 62.55pt; height: 12.9pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Var</span></td>
+		<td width="120" valign="top" style="width: 89.8pt; height: 12.9pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Var = D</span></td>
+		<td width="373" valign="top" style="width: 279.85pt; height: 12.9pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Indica el nom de 
+		variable a estudiar</span></td>
+	</tr>
+	<tr style="height: 13.9pt">
+		<td width="83" valign="top" style="width: 62.55pt; height: 13.9pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Alg</span></td>
+		<td width="120" valign="top" style="width: 89.8pt; height: 13.9pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Alg = EQ</span></td>
+		<td width="373" valign="top" style="width: 279.85pt; height: 13.9pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" style="line-height: 150%">
+		<span style="font-size: 11.0pt; font-family: Arial">Indica l’algorisme 
+		amb que es classifica la variable. Els valors possibles podran ser els 
+		següent:</span>	</p>
+		<p><span style="font-size: 11.0pt; font-family: Arial">Man: Manual</span></p>
+		<p><span style="font-size: 11.0pt; font-family: Arial">SL: Single Linkage</span></p>
+		<p><span style="font-size: 11.0pt; font-family: Arial">CL: Complete Linkage</span></p>
+		<p><span style="font-size: 11.0pt; font-family: Arial">SA: Simple Average Linkage</span></p>
+		<p><span style="font-size: 11.0pt; font-family: Arial">AV: Average Linkage</span></p>
+		<p><span style="font-size: 11.0pt; font-family: Arial">CE: Centroid</span></p>
+		<p class="MsoNormal" align="left">
+		<span style="font-size: 11.0pt; font-family: Arial">ME: Median</span></p>
+		<p class="MsoNormal" align="left">
+		<span style="font-size: 11.0pt; font-family: Arial">WA: Ward</span></p>
+		<p class="MsoNormal" align="left">
+		<span style="font-size: 11.0pt; font-family: Arial">FM: Flexible Method</span></p>
+		<p class="MsoNormal" align="left">
+		<span style="font-size: 11.0pt; font-family: Arial">EQ_FREQ: Equal 
+		Frequency Interval</span></p>
+		<p class="MsoNormal" align="left">
+		<span style="font-size: 11.0pt; font-family: Arial">EQ_WIDTH: Equal 
+		Width Interval</span></p>
+		<p class="MsoNormal" align="left">
+		<span style="font-size: 11.0pt; font-family: Arial">K_MEANS: Kmeans</span></p>
+		<p class="MsoNormal" align="left">
+		<span style="font-size: 11.0pt; font-family: Arial">HCM: Hard Cmeans</span></p>
+		<p class="MsoNormal" align="left">
+		<span style="font-size: 11.0pt; font-family: Arial">FCM: Fuzzy Cmeans</span></td>
+	</tr>
+	<tr>
+		<td width="83" valign="top" style="width: 62.55pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Clust</span></td>
+		<td width="120" valign="top" style="width: 89.8pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Clust = 3</span></td>
+		<td width="373" valign="top" style="width: 279.85pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Indica el nº de 
+		clusters en que es dividirà la variable</span></td>
+	</tr>
+	<tr>
+		<td width="83" valign="top" style="width: 62.55pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Beta</span></td>
+		<td width="120" valign="top" style="width: 89.8pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Beta = -0.15</span></td>
+		<td width="373" valign="top" style="width: 279.85pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Només sortirà en cas 
+		que l’algorisme sigui el FM. Indicarà el valor del paràmetre beta.</span></td>
+	</tr>
+	<tr>
+		<td width="83" valign="top" style="width: 62.55pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Exp</span></td>
+		<td width="120" valign="top" style="width: 89.8pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Exp = 2.0</span></td>
+		<td width="373" valign="top" style="width: 279.85pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">S’activarà únicament 
+		amb l’algorisme FCM. Indicarà l’exponent de fuzzificació de l’algorisme.
+		</span></td>
+	</tr>
+	<tr>
+		<td width="83" valign="top" style="width: 62.55pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">It</span></td>
+		<td width="120" valign="top" style="width: 89.8pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">It = 100</span></td>
+		<td width="373" valign="top" style="width: 279.85pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal">
+		<span style="font-size: 11.0pt; font-family: Arial">Sortirà amb els 
+		algorismes de Kmeans, HCM I FCM. Indica el nº d’iteracions màxim.</span></td>
+	</tr>
+	<tr>
+		<td width="83" valign="top" style="width: 62.55pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial">
+		Stop</span></td>
+		<td width="120" valign="top" style="width: 89.8pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal"><span style="font-size:11.0pt;font-family:Arial">
+		Stop = 1e-5</span></td>
+		<td width="373" valign="top" style="width: 279.85pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 3.5pt; padding-right: 3.5pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" style="page-break-after:avoid">
+		<span style="font-size:
+  11.0pt;font-family:Arial">Estarà actiu amb els mètodes de HCM I FCM. Indica el 
+		criteri de parada.</span></td>
+	</tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>Sortir</h2>
+<p>&nbsp;</p>
+<table bgcolor="#ffe4b0" border=0 width="100%" cellpadding=0 cellspacing=0 id="table1"><tr valign=top><td align=left width=20>
+	<a href="Entrenar_Ajuda.html">
+	<img border="0" src="b_prev.gif" width="17" height="17"></a>&nbsp;</td>
+	<td align=left width="481">
+	Dades d’entrenament</td><td align=right>
+	Modelatge&nbsp;</td><td align=right width=20>
+		<a href="Modelatge_Ajuda.html">
+		<img border="0" src="b_next.gif" width="17" height="17"></a></td></tr></table>
+</body>
+</html>

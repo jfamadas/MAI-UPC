@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Large Files
+Q1/IHLT/Project/stanford-corenlp-full-2017-06-09/stanford-corenlp-3.8.0-models.jar
+Q2/DL/GuidLab4/Image_Emb/vgg16_weights_tf_dim_ordering_tf_kernels.h5
+Q2/DL/GuidLab4/Word_Emb/glove.6B.300d.txt
+Q2/OR/Block3/MicrosoftGestureDataset-RC/code/cosine.mat
+Q2/OR/Block3/MicrosoftGestureDataset-RC/code/Euclidean.mat
+Q2/OR/Block3/MicrosoftGestureDataset-RC/code/Manhattan.mat
+Q2/OR/Block3/MicrosoftGestureDataset-RC/code/noKnn.mat
+Q2/OR/Block3/MicrosoftGestureDataset-RC/code/NoTraining.mat

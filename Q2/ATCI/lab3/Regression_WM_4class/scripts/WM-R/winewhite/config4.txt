@@ -1,0 +1,6 @@
+algorithm = Fuzzy Rule Learning, Wang-Mendel Algorithm
+inputData = "../datasets/winewhite/winewhite-5-5tra.dat" "../datasets/winewhite/winewhite-5-5tra.dat" "../datasets/winewhite/winewhite-5-5tst.dat" 
+outputData = "../results/WM-R.winewhite/result4.tra" "../results/WM-R.winewhite/result4.tst" "../results/WM-R.winewhite/result4e0.txt"  "../results/WM-R.winewhite/result4e1.txt"  
+
+Number of labels = 4
+KB Output File Format with Weight values to 1? (0/1) = 0

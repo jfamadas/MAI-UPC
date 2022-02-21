@@ -1,0 +1,20 @@
+algorithm = MLP Neural Network
+inputData = "../datasets/winewhite/winewhite-5-2tra.dat" "../datasets/winewhite/winewhite-5-2tra.dat" "../datasets/winewhite/winewhite-5-2tst.dat" 
+outputData = "../results/MLP-BP-R.winewhite/result1s6.tra" "../results/MLP-BP-R.winewhite/result1s6.tst" "../results/MLP-BP-R.winewhite/result1s6e0.txt"  
+
+seed = 893439232
+Hidden_layers = 1
+Hidden_nodes = 4
+Transfer = Htan
+Eta = 0.15
+Alpha = 0.10
+Lambda = 0.0
+Test_data = true
+Validation_data = false
+Cross_validation = false
+Cycles = 10000
+Improve = 0.01
+Problem = Regression
+Tipify_inputs = true
+Verbose = false
+SaveAll = false

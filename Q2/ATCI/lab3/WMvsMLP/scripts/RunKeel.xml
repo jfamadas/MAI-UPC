@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<execution>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Regr-MLP-BackProp.jar</executableFile>
+    <scriptFile>./MLP-BP-R/winewhite/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Mam-WM.jar</executableFile>
+    <scriptFile>./WM-R/winewhite/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Mam-WM.jar</executableFile>
+    <scriptFile>./WM-R/winewhite/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Mam-WM.jar</executableFile>
+    <scriptFile>./WM-R/winewhite/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Mam-WM.jar</executableFile>
+    <scriptFile>./WM-R/winewhite/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Mam-WM.jar</executableFile>
+    <scriptFile>./WM-R/winewhite/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ModelTest_General.jar</executableFile>
+    <scriptFile>./Vis-Regr-General/TSTWM-RvsMLP-BP-R/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ModelTest_Tabular.jar</executableFile>
+    <scriptFile>./Vis-Regr-Tabular/TSTWM-RvsMLP-BP-R/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ModelTest_rs.jar</executableFile>
+    <scriptFile>./Regr-Single-Wilcoxon-ST/TSTWM-RvsMLP-BP-R/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ModelTest_t.jar</executableFile>
+    <scriptFile>./Regr-T-test-ST/TSTWM-RvsMLP-BP-R/config0s0.txt</scriptFile>
+  </sentence>
+</execution>
+

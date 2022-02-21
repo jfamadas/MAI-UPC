@@ -1,0 +1,53 @@
+
+
+Initial Data Base: 
+
+  Variable 1:
+    Label 1: (1.8E7,8.0E7,1.42E8)
+    Label 2: (8.0E7,1.42E8,2.04E8)
+
+  Variable 2:
+    Label 1: (-3280000.0,90000.0,3460000.0)
+    Label 2: (90000.0,3460000.0,6830000.0)
+
+  Variable 3:
+    Label 1: (-1.66E7,0.0,1.66E7)
+    Label 2: (0.0,1.66E7,3.32E7)
+
+  Variable 4:
+    Label 1: (9340000.0,9870000.0,1.04E7)
+    Label 2: (9870000.0,1.04E7,1.093E7)
+
+  Variable 5:
+    Label 1: (-6.4E7,3.9E7,1.42E8)
+    Label 2: (3.9E7,1.42E8,2.45E8)
+
+  Variable 6:
+    Label 1: (-1.41E9,3.0E7,1.47E9)
+    Label 2: (3.0E7,1.47E9,2.91E9)
+
+  Variable 7:
+    Label 1: (-6.46E8,6000000.0,6.58E8)
+    Label 2: (6000000.0,6.58E8,1.31E9)
+
+  Variable 8:
+    Label 1: (-6200000.0,2200000.0,1.06E7)
+    Label 2: (2200000.0,1.06E7,1.9E7)
+
+  Variable 9:
+    Label 1: (-3.47E9,1.0E8,3.67E9)
+    Label 2: (1.0E8,3.67E9,7.24E9)
+
+  Variable 10:
+    Label 1: (-9400000.0,800000.0,1.1E7)
+    Label 2: (800000.0,1.1E7,2.12E7)
+
+  Variable 11:
+    Label 1: (1.62E7,2.72E7,3.82E7)
+    Label 2: (2.72E7,3.82E7,4.92E7)
+
+  Variable 12:
+    Label 1: (-3.0E7,3.0E7,9.0E7)
+    Label 2: (3.0E7,9.0E7,1.5E8)
+
+

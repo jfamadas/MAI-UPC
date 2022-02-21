@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<execution>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx4096000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Mam-WM.jar</executableFile>
+    <scriptFile>./WM-R/winewhite/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx4096000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Mam-WM.jar</executableFile>
+    <scriptFile>./WM-R/winewhite/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx4096000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Mam-WM.jar</executableFile>
+    <scriptFile>./WM-R/winewhite/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx4096000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Mam-WM.jar</executableFile>
+    <scriptFile>./WM-R/winewhite/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx4096000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Mam-WM.jar</executableFile>
+    <scriptFile>./WM-R/winewhite/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx4096000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ModelTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Regr-Check/TSTWM-R/config0s0.txt</scriptFile>
+  </sentence>
+</execution>
+

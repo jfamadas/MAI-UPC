@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Modeling probs.
+inputData = "../results/WM-R.winewhite/result0.tst" "../results/WM-R.winewhite/result1.tst" "../results/WM-R.winewhite/result2.tst" "../results/WM-R.winewhite/result3.tst" "../results/WM-R.winewhite/result4.tst" "../results/WM-R.winewhite/result0.tra" "../results/WM-R.winewhite/result1.tra" "../results/WM-R.winewhite/result2.tra" "../results/WM-R.winewhite/result3.tra" "../results/WM-R.winewhite/result4.tra" 
+outputData = "../results/Vis-Regr-Check/TSTWM-R/result0s0.stat" 
+
+seed = 1343278692
+subAlgorithm = StatCheckMO
+dataformat = keel
+outlabel = CHK
