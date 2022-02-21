@@ -1,0 +1,3587 @@
+12
+256
+UNSTACK(B,C,Right), LEAVE(B,Right), UNSTACK(C,E,Right), UNSTACK(A,F,Left), STACK(A,E,Left), PICKUP(F,Left), LEAVE(C,Right), PICKUP(B,Right), STACK(F,C,Left), UNSTACK(A,E,Left), STACK(B,E,Right), STACK(A,B,Left)
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(B,E),ON(F,C),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(B,E),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,E),ON(F,C),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,E),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(F,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,B),ON(B,E),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),HOLDING(F,Left),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(F,Right),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(B,E),ON(F,C),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(B,E),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(B,E),ON(F,C),ONTABLE(A),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(B,E),ON(F,C),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(F,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(B,Right),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(B,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(F,Right),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),HOLDING(F,Left),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(B,E),ON(F,A),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(B,E),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(B,E),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(B,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),HOLDING(F,Right),ON(A,B),ON(B,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(B,E),ONTABLE(A),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(F,B),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(F,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(B,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,C),ON(B,E),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,C),ON(B,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),HOLDING(B,Right),HOLDING(F,Left),ON(A,F),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(F,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(F,A),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(F,B),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(F,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,E),ON(F,B),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(F,B),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(B,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,E),ONTABLE(C),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,E),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,B),ON(B,E),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,B),ON(B,E),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(B,E),ON(F,B),ONTABLE(A),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(F,B),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(B,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(B,E),ON(F,B),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(B,E),ON(F,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(B,E),ON(F,B),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(F,B),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(F,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),HOLDING(F,Right),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(B,E),ON(F,A),ONTABLE(A),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(F,A),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(B,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(B,E),ON(F,A),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(B,E),ON(F,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(B,E),ON(F,C),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),HOLDING(F,Right),ON(B,E),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),HOLDING(F,Right),ON(A,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(B,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(B,E),ON(F,A),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(B,E),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(B,E),ONTABLE(C),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(B,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),HOLDING(F,Right),ON(A,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(F,C),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,E),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(F,C),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(E,Right),ON(F,C),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(F,C),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(F,Right),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),HOLDING(F,Left),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(F,C),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(F,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(B,E),ON(F,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(C,Right),ON(B,E),ON(F,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(B,E),ON(F,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(B,E),ON(F,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(B,Right),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(B,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(B,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(B,E),ONTABLE(A),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(C,Right),ON(B,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(B,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,E),ON(F,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(B,E),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(F,B),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,E),ON(F,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),HOLDING(C,Right),HOLDING(F,Left),ON(A,F),ON(B,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(F,A),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(F,A),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(B,C),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(F,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,E),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(B,E),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(F,A),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(B,E),ON(C,B),ONTABLE(A),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(C,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(C,B),ON(F,A),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(B,E),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(B,E),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(B,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),HOLDING(B,Right),HOLDING(F,Left),ON(A,F),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),HOLDING(C,Right),HOLDING(F,Left),ON(A,F),ON(B,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),HOLDING(E,Right),HOLDING(F,Left),ON(A,F),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(F,C),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,E),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,E),ON(B,C),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,E),ON(B,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(B,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(F,C),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(F,C),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(F,E),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,B),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),HOLDING(F,Left),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(F,Right),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,E),ON(C,B),ONTABLE(F),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(B,C),ON(F,A),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(B,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(F,A),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(B,C),ON(F,A),ONTABLE(A),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),HOLDING(F,Right),ON(B,C),ONTABLE(A),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(B,C),ON(F,E),ONTABLE(A),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(B,C),ON(F,B),ONTABLE(A),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(B,C),ON(F,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(F,B),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(B,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(B,C),ON(F,E),ONTABLE(A),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(B,C),ON(F,E),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(F,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(B,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(F,Right),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),HOLDING(F,Left),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(F,A),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(F,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(F,B),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(F,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(B,Right),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(B,E),ON(C,B),ON(F,A),ONTABLE(A),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(C,B),ON(F,A),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(C,B),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(C,B),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(B,E),ON(F,A),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(C,B),ONTABLE(A),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(B,E),ONTABLE(A),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(B,E),ON(C,B),ON(F,C),ONTABLE(A),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(C,B),ON(F,C),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(B,E),ON(F,C),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(C,B),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(F,Right),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(C,B),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),HOLDING(F,Left),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(C,B),ON(F,A),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(C,B),ON(F,C),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(F,E),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),HOLDING(F,Right),ON(A,C),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(F,A),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(F,E),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(F,B),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(B,C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(B,E),ON(C,B),ONTABLE(F),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(B,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),HOLDING(F,Right),ON(A,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(F,B),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(F,A),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(B,C),ON(F,A),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,E),ON(B,C),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,E),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,E),ON(B,C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,E),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(B,C),ON(F,B),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,E),ON(B,C),ON(F,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,E),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(B,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(F,E),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(F,C),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),HOLDING(F,Right),ON(A,B),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(F,E),ONTABLE(A),ONTABLE(B),ONTABLE(C),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(F,C),ONTABLE(A),ONTABLE(B),ONTABLE(C),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),HOLDING(F,Right),ONTABLE(A),ONTABLE(B),ONTABLE(C),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(F,E),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(F,A),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(F,B),ONTABLE(A),ONTABLE(B),ONTABLE(C),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(E,Right),ON(F,B),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(F,B),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(F,B),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(C,Right),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(F,B),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(C,Right),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(F,E),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),HOLDING(F,Right),ON(A,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(B,C),ONTABLE(C),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(B,C),ONTABLE(A),ONTABLE(C),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(E,Right),ON(B,C),ONTABLE(C),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(B,C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(B,C),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(F,Right),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),HOLDING(F,Left),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(B,E),ON(C,B),ONTABLE(F),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(B,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(C,B),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(F,Right),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(C,B),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),HOLDING(F,Left),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(C,B),ONTABLE(A),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,C),ON(F,A),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(B,C),ONTABLE(A),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(F,A),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,C),ONTABLE(C),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(B,C),ONTABLE(A),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(F,B),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(B,C),ONTABLE(A),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(F,B),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,C),ON(F,B),ONTABLE(C),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,C),ON(F,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(F,B),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(F,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,C),ON(F,E),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,C),ON(F,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(F,E),ONTABLE(A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,B),ON(B,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),HOLDING(B,Right),HOLDING(F,Left),ON(A,F),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(C,B),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(C,B),ON(F,C),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,E),ON(C,B),ON(F,C),USEDCOLSNUM0
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,B),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(C,B),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,E),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,E),ON(C,B),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,E),ON(C,B),ON(F,C),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,C),ON(B,E),ON(C,B),USEDCOLSNUM0
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,C),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,C),ON(B,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(F,A),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,C),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(F,B),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,C),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,C),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,C),ONTABLE(C),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),HOLDING(E,Right),HOLDING(F,Left),ON(A,F),ON(B,C),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,E),ON(C,B),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(C,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(F,A),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,B),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ONTABLE(B),ONTABLE(C),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,B),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(F,A),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ONTABLE(A),ONTABLE(B),ONTABLE(C),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(F,B),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ONTABLE(A),ONTABLE(B),ONTABLE(C),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(F,A),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),HOLDING(E,Right),HOLDING(F,Left),ON(A,F),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(F,B),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),HOLDING(C,Right),HOLDING(F,Left),ON(A,F),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(F,B),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(C,E),ON(F,B),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,E),ON(F,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,E),ON(F,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(C,B),ON(F,E),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,B),ON(F,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,B),ON(F,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),HOLDING(C,Right),HOLDING(F,Left),ON(A,F),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(F,E),ONTABLE(B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,B),ON(C,E),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,B),ON(C,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(C,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,B),ON(B,C),ONTABLE(C),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,C),ONTABLE(C),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(B,E),ON(C,B),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(B,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(B,C),ON(F,B),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(B,C),ON(F,B),ONTABLE(A),ONTABLE(C),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(E,Right),ON(B,C),ON(F,B),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(B,C),ON(F,B),ONTABLE(C),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(B,C),ON(F,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(B,C),ON(F,E),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(B,C),ON(F,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(B,C),ON(F,E),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(B,C),ON(F,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ON(F,E),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),HOLDING(F,Right),ON(A,B),ON(B,C),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(B,C),ON(F,E),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(B,C),ON(F,A),ONTABLE(C),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(B,C),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(B,C),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(B,E),ON(C,B),ON(F,C),USEDCOLSNUM0
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(C,B),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(B,E),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(C,B),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(C,B),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(B,E),ON(C,B),ON(F,A),USEDCOLSNUM0
+Contradictory Predicates
+-------------------------
+CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(C,B),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(B,E),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(B,E),ON(C,B),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(B,E),ON(C,B),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(B,E),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ONTABLE(B),ONTABLE(C),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ONTABLE(B),ONTABLE(C),ONTABLE(F),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ONTABLE(B),ONTABLE(C),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(E,Right),ONTABLE(B),ONTABLE(C),ONTABLE(F),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(F,Right),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),HOLDING(F,Left),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(C,B),ON(F,A),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,E),ON(C,B),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,E),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(C,B),ON(F,C),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,E),ON(C,B),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(C,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(C,Right),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(C,E),ON(F,A),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(C,E),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(C,E),ON(F,B),ONTABLE(A),ONTABLE(B),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(C,E),ON(F,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(F,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(C,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(F,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(F,C),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(C,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(F,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),HOLDING(F,Right),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(C,E),ON(F,B),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(C,E),ON(F,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(C,E),ON(F,B),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(C,E),ON(F,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(C,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(F,Right),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),HOLDING(F,Left),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,E),ON(F,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(C,B),ON(F,E),ONTABLE(A),ONTABLE(B),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(C,B),ON(F,E),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(C,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(F,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(C,B),ON(F,E),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(C,B),ON(F,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(C,B),ON(F,E),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(C,B),ON(F,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(C,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(F,Right),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),HOLDING(F,Left),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,B),ON(F,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(F,Right),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(C,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),HOLDING(F,Left),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(C,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,B),ON(C,E),ON(F,C),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(C,E),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(C,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,C),ON(F,B),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),HOLDING(E,Right),HOLDING(F,Left),ON(A,F),ON(B,C),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,C),ON(F,B),ONTABLE(C),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,C),ON(F,A),ONTABLE(C),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(B,C),ON(F,A),ONTABLE(C),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,B),ON(B,C),ONTABLE(C),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),HOLDING(E,Right),HOLDING(F,Left),ON(A,F),ONTABLE(B),ONTABLE(C),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ONTABLE(B),ONTABLE(C),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,C),ON(C,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,B),ON(F,C),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,B),ON(F,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(C,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(C,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,B),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,E),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,B),ON(F,C),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),HOLDING(C,Right),HOLDING(F,Left),ON(A,F),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(C,E),ONTABLE(B),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(C,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,E),ON(F,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(C,E),ONTABLE(A),ONTABLE(B),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,E),ON(F,A),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(C,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,E),ON(F,C),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,E),ON(F,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,E),ON(F,A),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,B),ON(F,A),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,C),ON(C,E),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(A,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,E),ON(F,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(C,E),ON(F,C),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,E),ON(F,C),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,B),ON(F,A),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,B),ON(F,C),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(C,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,B),ON(F,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(F,Right),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,B),ON(F,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,B),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,E),ON(F,C),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Right),HOLDING(F,Left),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(C,B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(C,B),ON(F,C),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(F,C),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(C,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(C,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(C,B),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),HOLDING(F,Right),ON(A,C),ON(C,B),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(C,B),ON(F,E),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(C,B),ON(F,A),ONTABLE(B),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(C,B),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),HOLDING(F,Right),ON(C,B),ONTABLE(A),ONTABLE(B),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(C,B),ON(F,C),ONTABLE(A),ONTABLE(B),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(C,B),ON(F,E),ONTABLE(A),ONTABLE(B),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(C,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(C,B),ON(F,A),ONTABLE(A),ONTABLE(B),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(C,B),ON(F,A),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(F,A),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(C,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(C,B),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(C,B),ONTABLE(B),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(C,B),ONTABLE(B),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(C,B),ONTABLE(A),ONTABLE(B),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(E,Right),ON(C,B),ONTABLE(B),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(C,B),ON(F,C),ONTABLE(B),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,E),ON(C,B),ON(F,C),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(C,B),ON(F,C),ONTABLE(A),ONTABLE(B),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(E,Right),ON(C,B),ON(F,C),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(C,E),ONTABLE(B),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(E),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(C,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(C,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(B,Right),ON(C,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(C,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(C,E),ON(F,A),ONTABLE(A),ONTABLE(B),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(C,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(F,A),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(C,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(C,E),ON(F,C),ONTABLE(A),ONTABLE(B),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(C,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(F,C),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(C,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(C,E),ON(F,A),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(C,E),ON(F,C),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(C,E),ON(F,B),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(C,E),ONTABLE(A),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),HOLDING(F,Right),ON(C,E),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(C,E),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(E,Right),ON(A,C),ON(C,E),ON(F,A),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(E),CLEAR(F),EMPTYARM(Left),HOLDING(C,Right),ON(A,C),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(F,Right),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(C,E),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(C,E),ON(F,B),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,C),ON(C,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),HOLDING(F,Right),ON(A,C),ON(C,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(F,Left),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),HOLDING(E,Right),ON(A,F),ON(C,E),ON(F,C),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),EMPTYARM(Left),HOLDING(C,Right),ON(A,F),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),HOLDING(F,Right),ON(A,F),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Right),HOLDING(F,Left),ON(A,F),ON(C,E),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(C,E),ON(F,C),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),HOLDING(A,Right),HOLDING(B,Right),ON(C,E),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(F),EMPTYARM(Left),HOLDING(B,Right),ON(A,B),ON(C,E),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),HOLDING(B,Right),ON(A,F),ON(C,E),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Right),HOLDING(A,Left),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(C,B),ONTABLE(B),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),HOLDING(E,Right),HOLDING(F,Left),ON(A,F),ON(C,B),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(C,B),ONTABLE(B),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,C),ON(C,B),ONTABLE(B),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,B),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(C,B),ON(F,C),ONTABLE(B),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(C,B),ONTABLE(A),ONTABLE(B),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,B),ON(F,C),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(C,B),ON(F,C),ONTABLE(B),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),HOLDING(E,Right),HOLDING(F,Left),ON(A,F),ON(C,B),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(E),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,B),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(C,B),ON(F,A),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,B),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(A,C),ON(C,B),ONTABLE(B),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(C,B),ON(F,A),ONTABLE(B),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(C),CLEAR(E),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,B),ON(F,A),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(C,B),ONTABLE(A),ONTABLE(B),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(C,B),ONTABLE(B),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(C),CLEAR(E),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(C,B),ONTABLE(A),ONTABLE(B),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),HOLDING(B,Right),HOLDING(F,Left),ON(A,F),ON(C,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(C,E),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,C),ON(C,E),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,E),ONTABLE(B),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(A,Left),HOLDING(E,Right),ON(B,C),ON(C,E),ONTABLE(F),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(B,C),ON(C,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(C,E),ONTABLE(A),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(A,Left),HOLDING(C,Right),ON(B,C),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,E),ONTABLE(E),ONTABLE(F),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,E),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(C,E),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,E),ON(F,A),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,E),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(C,E),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(C,E),ON(F,C),ONTABLE(A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(E,Right),HOLDING(F,Left),ON(B,C),ON(C,E),ONTABLE(A),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(C,E),ON(F,A),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(E),CLEAR(F),HOLDING(C,Right),HOLDING(F,Left),ON(B,C),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(B,C),ON(C,E),ONTABLE(A),ONTABLE(E),ONTABLE(F),USEDCOLSNUM3
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(C,E),ONTABLE(A),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(C),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,E),ON(F,A),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(B,Right),HOLDING(F,Left),ON(A,C),ON(C,E),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(B),CLEAR(F),EMPTYARM(Left),EMPTYARM(Right),ON(A,C),ON(C,E),ON(F,A),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(C),HOLDING(B,Right),HOLDING(F,Left),ON(A,F),ON(C,E),ONTABLE(E),USEDCOLSNUM1
+Contradictory Predicates
+-------------------------
+CLEAR(A),CLEAR(B),CLEAR(F),HOLDING(A,Left),HOLDING(B,Right),ON(C,E),ON(F,C),ONTABLE(E),USEDCOLSNUM1
+Repeated State
+-------------------------
+CLEAR(A),CLEAR(B),EMPTYARM(Left),EMPTYARM(Right),ON(A,F),ON(C,E),ON(F,C),ONTABLE(B),ONTABLE(E),USEDCOLSNUM2
+Repeated State
+-------------------------
+
