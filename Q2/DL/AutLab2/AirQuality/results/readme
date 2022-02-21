@@ -1,0 +1,51 @@
+basic format: Use only PM10 from the first site.
+
+lag = 3     || name: basic3     || execution time: 1531 sec
+lag = 6     || name: basic      || execution time: 2264 sec
+lag = 12    || name: basic12    || execution time: 4103 sec
+
+
+5vars: Use the 5 polution variables
+
+lag = 3     || name: 5vars3     || execution time: 1493 sec
+lag = 6     || name: 5vars      || execution time: 2366 sec
+lag = 12    || name: 5vars12    || execution time: 4003 sec
+
+
+9vars: Use the 9 variables
+
+lag = 3     || name: 9vars3     || execution time: 1683 sec
+lag = 6     || name: 9vars      || execution time: 2363 sec
+lag = 12    || name: 9vars12    || execution time: 3957 sec
+
+
+sites: Use the PM10 from all sites
+
+lag = 3     || name: sites3     || execution time: 1639 sec
+lag = 6     || name: sites      || execution time: 2423 sec
+lag = 12    || name: sites12    || execution time: 4296 sec
+
+
+varsites: Use the all 5 vars from all sites
+
+lag = 3     || name: varsites3     || execution time: 1561 sec
+lag = 6     || name: varsites      || execution time: 2453 sec
+lag = 12    || name: varsites12    || execution time: 4107 sec
+
+
+
+
+
+
+matrix -->      dropout  -->    | 0.0 | 0.25 | 0.5 | 0.75 | 0.9 |
+             n.lay | n.neur
+                |       |
+                v       v
+                1       32
+                1       64
+                2       64
+                2       128
+                3       128
+                3       256
+                4       256
+                4       512

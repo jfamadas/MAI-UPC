@@ -1,0 +1,28 @@
+{
+  "data": {
+    "datanames": ["GEltham", "GWesthorne", "BSladeGreen",  "GWoolwich"],
+    "vars": [0,1,2,3,4],    "vars_explain": "Son lés 5 variables: PM10, NO, NO2, O3, Wind Speed",
+    "datasize": 35064,
+    "testsize": 8784,
+    "dataset": 0,           "dataset_explain": "how to generate the data (one variable, one site in the example code)",
+    "lag": 6,
+    "ahead": 1,
+    "seq2seq": 1,
+    "aheadpred": 15
+
+  },
+  "arch": {
+    "neurons": 256,
+    "rnn": "LSTM",
+    "drop": 0.0,
+    "nlayers": 4,
+    "activation": "tanh",
+    "activation_r": "hard_sigmoid"
+  },
+  "training": {
+    "batch": 500,
+    "epochs": 25,
+    "optimizer": "adam",
+    "lrate": 0.001
+  }
+}
